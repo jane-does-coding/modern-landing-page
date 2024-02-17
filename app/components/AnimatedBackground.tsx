@@ -34,7 +34,7 @@ const AnimatedBackground = ({ value }: { value: number }) => {
                 value: "transparent",
               },
             },
-            fpsLimit: 120,
+            fpsLimit: 520,
             interactivity: {
               events: {
                 onClick: {

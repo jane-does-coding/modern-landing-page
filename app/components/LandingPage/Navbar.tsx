@@ -30,15 +30,15 @@ const Navbar = () => {
         </Link>
         <div className="flex items-center gap-2">
           <Link
-            href={"/"}
+            href={"/auth"}
             className="decoration-none text-3lg rounded-full px-4 lg:px-6 py-2 hover:bg-slate-900/[10%] dark:hover:bg-slate-900/[40%] transition text-black dark:text-white"
           >
             Login
           </Link>
-          <Link href={"/"}>Join Now</Link>
+          <Link href={"/join"}>Join Now</Link>
         </div>
       </div>
-      <div className="navbar2 translate-y-[-5rem] hidden md:block bg-slate-200/50 dark:bg-slate-900/50  overflow-hidden backdrop-blur-md rounded-full z-[10] fixed top-[1rem] left-[86vw] flex items-center justify-between">
+      <div className="navbar2 translate-y-[-5rem] hidden lg:block bg-slate-200/50 dark:bg-slate-900/50  overflow-hidden backdrop-blur-md rounded-full z-[10] fixed top-[1rem] left-[86vw] flex items-center justify-between">
         <ThemeToggle />
       </div>
     </>

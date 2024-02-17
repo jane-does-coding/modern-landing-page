@@ -8,3 +8,74 @@
   height: 80vh !important;
   object-fit: cover;
 }
+
+:root {
+  --backgroundColor: #292929;
+  --primaryColor: #0aa1ff;
+  --primaryTextColor: #e6e6e6;
+
+  --headlineBig: clamp(5rem, 9.9vw, 15rem);
+  --headlineMedium: clamp(1rem, 2vw, 4rem);
+  --headlineSmall: clamp(0.6rem, 0.75vw, 1.3rem);
+  --spacing: clamp(0.9rem, 0.75vw, 1.3rem);
+}
+
+.hero__header {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero__header h1 {
+  font-size: 5rem;
+  color: black;
+}
+
+.hero__header h2 {
+  letter-spacing: var(--headlineSmall);
+  font-size: var(--headlineSmall);
+  text-transform: uppercase;
+  color: black;
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-vertical {
+  height: 70vh !important;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.image-vertical:hover {
+  width: 300px !important;
+}
+
+.img-full-width {
+  width: 100% !important;
+}
+
+.transition {
+  transition: 0.25s;
+}
