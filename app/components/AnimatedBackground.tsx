@@ -101,4 +101,6 @@ const AnimatedBackground = React.memo(({ value }: { value: any }) => {
   );
 });
 
+AnimatedBackground.displayName = "AnimatedBackground";
+
 export default AnimatedBackground;
