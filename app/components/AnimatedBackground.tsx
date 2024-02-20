@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-const AnimatedBackground = ({ value }: { value: number }) => {
+const AnimatedBackground = React.memo(({ value }: { value: any }) => {
   const [isInit, setIsInit] = useState(false);
 
   useEffect(() => {
@@ -99,6 +99,6 @@ const AnimatedBackground = ({ value }: { value: number }) => {
       )}
     </>
   );
-};
+});
 
 export default AnimatedBackground;
