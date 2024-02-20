@@ -1,7 +1,7 @@
 ## Modern Landing Page Design
 
 ## Live Demo
-[Airbnb Live Demo](https://property-rent-eight.vercel.app/)
+[Live Demo](https://property-rent-eight.vercel.app/)
 
 ## Tech Stack:
 [![My Skills](https://skillicons.dev/icons?i=ts,tailwind,nextjs,css)](https://skillicons.dev)
