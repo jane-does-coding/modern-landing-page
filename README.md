@@ -1,5 +1,5 @@
 ## Modern Landing Page Design
-<img width="528" alt="Screenshot 2024-02-19 211541" src="https://github.com/YevheniiaSimaka/beautiful-modern-landing-page/assets/112284703/0336f497-fe4d-4882-af9b-1d7dd4e85f29">
+<img width="900" alt="Screenshot 2024-02-19 211541" src="https://github.com/YevheniiaSimaka/beautiful-modern-landing-page/assets/112284703/0336f497-fe4d-4882-af9b-1d7dd4e85f29">
 
 ## Live Demo
 [Live Demo](https://beautiful-modern-landing-page.vercel.app/)
